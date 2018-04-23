@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/CLionProjects/toxic-repository/Main.c
+stdio.h
+-
+Task1.h
+C:/Users/Admin/CLionProjects/toxic-repository/Task1.h
+
+C:/Users/Admin/CLionProjects/toxic-repository/Task1.c
+stdbool.h
+-
+malloc.h
+-
+stdio.h
+-
+mem.h
+-
+Task1.h
+C:/Users/Admin/CLionProjects/toxic-repository/Task1.h
+
+C:/Users/Admin/CLionProjects/toxic-repository/Task1.h
+stdbool.h
+-
+

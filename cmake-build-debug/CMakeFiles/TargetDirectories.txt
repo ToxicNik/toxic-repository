@@ -1,0 +1,3 @@
+C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir
+C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/rebuild_cache.dir
