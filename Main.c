@@ -3,14 +3,17 @@
 //
 #include <stdio.h>
 #include "Task1.h"
+#include "Tests/MapTest.h"
 
 void main(){
-    int num;
-    scanf("%d", &num);
+    int num = 111;
+    //scanf("%d", &num);
+
     if (IsNumberSymmetrical(num))
-        printf("%s", "Your number is symmetrical");
+        printf("%s\n", "Your number is symmetrical");
     else
-        printf("%s", "Your number is asymmetrical");
+        printf("%s\n", "Your number is asymmetrical");
+    MapTest();
 }
 
 

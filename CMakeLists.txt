@@ -3,4 +3,4 @@ project(toxic-repository C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(toxic-repository main.c Task1.c Task1.h)
+add_executable(toxic-repository main.c Task1.c Task1.h map.c map.h Tests/mapTest.c Tests/mapTest.h)

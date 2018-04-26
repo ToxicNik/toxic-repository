@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Admin/CLionProjects/toxic-repository/Main.c" "C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/Main.c.obj"
   "C:/Users/Admin/CLionProjects/toxic-repository/Task1.c" "C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/Task1.c.obj"
+  "C:/Users/Admin/CLionProjects/toxic-repository/Tests/mapTest.c" "C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj"
+  "C:/Users/Admin/CLionProjects/toxic-repository/map.c" "C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/map.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

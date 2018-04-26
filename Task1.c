@@ -1,8 +1,8 @@
 //
 // Created by Admin on 23.04.2018.
+// Task T from 1st part from http://informatics.mccme.ru/mod/statements/view3.php?id=2296&chapterid=2956
 //
 
-#include <stdbool.h>
 #include <malloc.h>
 #include <stdio.h>
 #include <mem.h>

@@ -85,6 +85,18 @@
 		<Unit filename="C:/Users/Admin/CLionProjects/toxic-repository/Task1.h">
 			<Option target="toxic-repository"/>
 		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/toxic-repository/Tests/mapTest.c">
+			<Option target="toxic-repository"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/toxic-repository/Tests/mapTest.h">
+			<Option target="toxic-repository"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/toxic-repository/map.c">
+			<Option target="toxic-repository"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/toxic-repository/map.h">
+			<Option target="toxic-repository"/>
+		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/toxic-repository/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

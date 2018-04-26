@@ -176,6 +176,60 @@ Task1.c.s:
 	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Task1.c.s
 .PHONY : Task1.c.s
 
+Tests/mapTest.obj: Tests/mapTest.c.obj
+
+.PHONY : Tests/mapTest.obj
+
+# target to build an object file
+Tests/mapTest.c.obj:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj
+.PHONY : Tests/mapTest.c.obj
+
+Tests/mapTest.i: Tests/mapTest.c.i
+
+.PHONY : Tests/mapTest.i
+
+# target to preprocess a source file
+Tests/mapTest.c.i:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Tests/mapTest.c.i
+.PHONY : Tests/mapTest.c.i
+
+Tests/mapTest.s: Tests/mapTest.c.s
+
+.PHONY : Tests/mapTest.s
+
+# target to generate assembly for a file
+Tests/mapTest.c.s:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Tests/mapTest.c.s
+.PHONY : Tests/mapTest.c.s
+
+map.obj: map.c.obj
+
+.PHONY : map.obj
+
+# target to build an object file
+map.c.obj:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/map.c.obj
+.PHONY : map.c.obj
+
+map.i: map.c.i
+
+.PHONY : map.i
+
+# target to preprocess a source file
+map.c.i:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/map.c.i
+.PHONY : map.c.i
+
+map.s: map.c.s
+
+.PHONY : map.s
+
+# target to generate assembly for a file
+map.c.s:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/map.c.s
+.PHONY : map.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +245,12 @@ help:
 	@echo ... Task1.obj
 	@echo ... Task1.i
 	@echo ... Task1.s
+	@echo ... Tests/mapTest.obj
+	@echo ... Tests/mapTest.i
+	@echo ... Tests/mapTest.s
+	@echo ... map.obj
+	@echo ... map.i
+	@echo ... map.s
 .PHONY : help
 
 

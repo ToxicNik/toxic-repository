@@ -104,21 +104,73 @@ CMakeFiles/toxic-repository.dir/Task1.c.obj.provides: CMakeFiles/toxic-repositor
 CMakeFiles/toxic-repository.dir/Task1.c.obj.provides.build: CMakeFiles/toxic-repository.dir/Task1.c.obj
 
 
+CMakeFiles/toxic-repository.dir/map.c.obj: CMakeFiles/toxic-repository.dir/flags.make
+CMakeFiles/toxic-repository.dir/map.c.obj: ../map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\toxic-repository\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/toxic-repository.dir/map.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\toxic-repository.dir\map.c.obj   -c C:\Users\Admin\CLionProjects\toxic-repository\map.c
+
+CMakeFiles/toxic-repository.dir/map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/toxic-repository.dir/map.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\CLionProjects\toxic-repository\map.c > CMakeFiles\toxic-repository.dir\map.c.i
+
+CMakeFiles/toxic-repository.dir/map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/toxic-repository.dir/map.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\CLionProjects\toxic-repository\map.c -o CMakeFiles\toxic-repository.dir\map.c.s
+
+CMakeFiles/toxic-repository.dir/map.c.obj.requires:
+
+.PHONY : CMakeFiles/toxic-repository.dir/map.c.obj.requires
+
+CMakeFiles/toxic-repository.dir/map.c.obj.provides: CMakeFiles/toxic-repository.dir/map.c.obj.requires
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/map.c.obj.provides.build
+.PHONY : CMakeFiles/toxic-repository.dir/map.c.obj.provides
+
+CMakeFiles/toxic-repository.dir/map.c.obj.provides.build: CMakeFiles/toxic-repository.dir/map.c.obj
+
+
+CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj: CMakeFiles/toxic-repository.dir/flags.make
+CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj: ../Tests/mapTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\toxic-repository\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\toxic-repository.dir\Tests\mapTest.c.obj   -c C:\Users\Admin\CLionProjects\toxic-repository\Tests\mapTest.c
+
+CMakeFiles/toxic-repository.dir/Tests/mapTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/toxic-repository.dir/Tests/mapTest.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\CLionProjects\toxic-repository\Tests\mapTest.c > CMakeFiles\toxic-repository.dir\Tests\mapTest.c.i
+
+CMakeFiles/toxic-repository.dir/Tests/mapTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/toxic-repository.dir/Tests/mapTest.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\CLionProjects\toxic-repository\Tests\mapTest.c -o CMakeFiles\toxic-repository.dir\Tests\mapTest.c.s
+
+CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj.requires:
+
+.PHONY : CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj.requires
+
+CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj.provides: CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj.requires
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj.provides.build
+.PHONY : CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj.provides
+
+CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj.provides.build: CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj
+
+
 # Object files for target toxic-repository
 toxic__repository_OBJECTS = \
 "CMakeFiles/toxic-repository.dir/Main.c.obj" \
-"CMakeFiles/toxic-repository.dir/Task1.c.obj"
+"CMakeFiles/toxic-repository.dir/Task1.c.obj" \
+"CMakeFiles/toxic-repository.dir/map.c.obj" \
+"CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj"
 
 # External object files for target toxic-repository
 toxic__repository_EXTERNAL_OBJECTS =
 
 toxic-repository.exe: CMakeFiles/toxic-repository.dir/Main.c.obj
 toxic-repository.exe: CMakeFiles/toxic-repository.dir/Task1.c.obj
+toxic-repository.exe: CMakeFiles/toxic-repository.dir/map.c.obj
+toxic-repository.exe: CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj
 toxic-repository.exe: CMakeFiles/toxic-repository.dir/build.make
 toxic-repository.exe: CMakeFiles/toxic-repository.dir/linklibs.rsp
 toxic-repository.exe: CMakeFiles/toxic-repository.dir/objects1.rsp
 toxic-repository.exe: CMakeFiles/toxic-repository.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin\CLionProjects\toxic-repository\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable toxic-repository.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin\CLionProjects\toxic-repository\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable toxic-repository.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\toxic-repository.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +180,8 @@ CMakeFiles/toxic-repository.dir/build: toxic-repository.exe
 
 CMakeFiles/toxic-repository.dir/requires: CMakeFiles/toxic-repository.dir/Main.c.obj.requires
 CMakeFiles/toxic-repository.dir/requires: CMakeFiles/toxic-repository.dir/Task1.c.obj.requires
+CMakeFiles/toxic-repository.dir/requires: CMakeFiles/toxic-repository.dir/map.c.obj.requires
+CMakeFiles/toxic-repository.dir/requires: CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj.requires
 
 .PHONY : CMakeFiles/toxic-repository.dir/requires
 

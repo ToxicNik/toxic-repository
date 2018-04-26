@@ -3,7 +3,16 @@
 
 CMakeFiles/toxic-repository.dir/Main.c.obj: ../Main.c
 CMakeFiles/toxic-repository.dir/Main.c.obj: ../Task1.h
+CMakeFiles/toxic-repository.dir/Main.c.obj: ../Tests/MapTest.h
+CMakeFiles/toxic-repository.dir/Main.c.obj: ../map.h
 
 CMakeFiles/toxic-repository.dir/Task1.c.obj: ../Task1.c
 CMakeFiles/toxic-repository.dir/Task1.c.obj: ../Task1.h
+
+CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj: ../Tests/mapTest.c
+CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj: ../Tests/mapTest.h
+CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj: ../map.h
+
+CMakeFiles/toxic-repository.dir/map.c.obj: ../map.c
+CMakeFiles/toxic-repository.dir/map.c.obj: ../map.h
 
