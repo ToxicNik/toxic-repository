@@ -1,4 +1,4 @@
-"D:\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Admin\CLionProjects\toxic-repository
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Toxic\CLionProjects\toxic-repository
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug
+-- Build files have been written to: C:/Users/Toxic/CLionProjects/toxic-repository/cmake-build-debug

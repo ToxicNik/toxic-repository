@@ -6,47 +6,67 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Admin/CLionProjects/toxic-repository/Main.c
-stdio.h
--
-Task1.h
-C:/Users/Admin/CLionProjects/toxic-repository/Task1.h
-Tests/MapTest.h
-C:/Users/Admin/CLionProjects/toxic-repository/Tests/MapTest.h
-
-C:/Users/Admin/CLionProjects/toxic-repository/Task1.c
-malloc.h
--
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/ASSERTS.c
 stdio.h
 -
 mem.h
 -
-Task1.h
-C:/Users/Admin/CLionProjects/toxic-repository/Task1.h
+ASSERTS.h
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/ASSERTS.h
 
-C:/Users/Admin/CLionProjects/toxic-repository/Task1.h
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/ASSERTS.h
 stdbool.h
 -
+../src/map.h
+C:/Users/Toxic/CLionProjects/toxic-repository/src/map.h
 
-C:/Users/Admin/CLionProjects/toxic-repository/Tests/MapTest.h
-../map.h
-C:/Users/Admin/CLionProjects/toxic-repository/map.h
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/Task1Test.c
+Task1Test.h
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/Task1Test.h
+ASSERTS.h
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/ASSERTS.h
 
-C:/Users/Admin/CLionProjects/toxic-repository/Tests/mapTest.c
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/Task1Test.h
+../src/Task1.h
+C:/Users/Toxic/CLionProjects/toxic-repository/src/Task1.h
+
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/mapTest.c
 malloc.h
 -
 stdio.h
 -
 mapTest.h
-C:/Users/Admin/CLionProjects/toxic-repository/Tests/mapTest.h
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/mapTest.h
 
-C:/Users/Admin/CLionProjects/toxic-repository/Tests/mapTest.h
-../map.h
-C:/Users/Admin/CLionProjects/toxic-repository/map.h
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/mapTest.h
+ASSERTS.h
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/ASSERTS.h
 
-C:/Users/Admin/CLionProjects/toxic-repository/map.c
+C:/Users/Toxic/CLionProjects/toxic-repository/src/Main.c
+stdio.h
+-
+../Tests/Task1Test.h
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/Task1Test.h
+../Tests/mapTest.h
+C:/Users/Toxic/CLionProjects/toxic-repository/Tests/mapTest.h
+
+C:/Users/Toxic/CLionProjects/toxic-repository/src/Task1.c
+malloc.h
+-
+mem.h
+-
+Task1.h
+C:/Users/Toxic/CLionProjects/toxic-repository/src/Task1.h
+
+C:/Users/Toxic/CLionProjects/toxic-repository/src/Task1.h
+stdbool.h
+-
+stdio.h
+-
+
+C:/Users/Toxic/CLionProjects/toxic-repository/src/map.c
 map.h
-C:/Users/Admin/CLionProjects/toxic-repository/map.h
+C:/Users/Toxic/CLionProjects/toxic-repository/src/map.h
 
-C:/Users/Admin/CLionProjects/toxic-repository/map.h
+C:/Users/Toxic/CLionProjects/toxic-repository/src/map.h
 

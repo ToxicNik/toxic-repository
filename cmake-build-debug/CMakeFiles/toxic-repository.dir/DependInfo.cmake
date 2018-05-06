@@ -4,10 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Admin/CLionProjects/toxic-repository/Main.c" "C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/Main.c.obj"
-  "C:/Users/Admin/CLionProjects/toxic-repository/Task1.c" "C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/Task1.c.obj"
-  "C:/Users/Admin/CLionProjects/toxic-repository/Tests/mapTest.c" "C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj"
-  "C:/Users/Admin/CLionProjects/toxic-repository/map.c" "C:/Users/Admin/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/map.c.obj"
+  "C:/Users/Toxic/CLionProjects/toxic-repository/Tests/ASSERTS.c" "C:/Users/Toxic/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/Tests/ASSERTS.c.obj"
+  "C:/Users/Toxic/CLionProjects/toxic-repository/Tests/Task1Test.c" "C:/Users/Toxic/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/Tests/Task1Test.c.obj"
+  "C:/Users/Toxic/CLionProjects/toxic-repository/Tests/mapTest.c" "C:/Users/Toxic/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/Tests/mapTest.c.obj"
+  "C:/Users/Toxic/CLionProjects/toxic-repository/src/Main.c" "C:/Users/Toxic/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/src/Main.c.obj"
+  "C:/Users/Toxic/CLionProjects/toxic-repository/src/Task1.c" "C:/Users/Toxic/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/src/Task1.c.obj"
+  "C:/Users/Toxic/CLionProjects/toxic-repository/src/map.c" "C:/Users/Toxic/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/src/map.c.obj"
+  "C:/Users/Toxic/CLionProjects/toxic-repository/src/where.c" "C:/Users/Toxic/CLionProjects/toxic-repository/cmake-build-debug/CMakeFiles/toxic-repository.dir/src/where.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

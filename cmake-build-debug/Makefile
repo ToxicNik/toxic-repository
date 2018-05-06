@@ -38,27 +38,27 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\CLionProjects\toxic-repository
+CMAKE_SOURCE_DIR = C:\Users\Toxic\CLionProjects\toxic-repository
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\toxic-repository\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Toxic\CLionProjects\toxic-repository\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	"C:\Program Files\CMake\bin\cmake-gui.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\CMake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\toxic-repository\cmake-build-debug\CMakeFiles C:\Users\Admin\CLionProjects\toxic-repository\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Toxic\CLionProjects\toxic-repository\cmake-build-debug\CMakeFiles C:\Users\Toxic\CLionProjects\toxic-repository\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\toxic-repository\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Toxic\CLionProjects\toxic-repository\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,59 +122,59 @@ toxic-repository/fast:
 	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/build
 .PHONY : toxic-repository/fast
 
-Main.obj: Main.c.obj
+Tests/ASSERTS.obj: Tests/ASSERTS.c.obj
 
-.PHONY : Main.obj
-
-# target to build an object file
-Main.c.obj:
-	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Main.c.obj
-.PHONY : Main.c.obj
-
-Main.i: Main.c.i
-
-.PHONY : Main.i
-
-# target to preprocess a source file
-Main.c.i:
-	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Main.c.i
-.PHONY : Main.c.i
-
-Main.s: Main.c.s
-
-.PHONY : Main.s
-
-# target to generate assembly for a file
-Main.c.s:
-	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Main.c.s
-.PHONY : Main.c.s
-
-Task1.obj: Task1.c.obj
-
-.PHONY : Task1.obj
+.PHONY : Tests/ASSERTS.obj
 
 # target to build an object file
-Task1.c.obj:
-	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Task1.c.obj
-.PHONY : Task1.c.obj
+Tests/ASSERTS.c.obj:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Tests/ASSERTS.c.obj
+.PHONY : Tests/ASSERTS.c.obj
 
-Task1.i: Task1.c.i
+Tests/ASSERTS.i: Tests/ASSERTS.c.i
 
-.PHONY : Task1.i
+.PHONY : Tests/ASSERTS.i
 
 # target to preprocess a source file
-Task1.c.i:
-	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Task1.c.i
-.PHONY : Task1.c.i
+Tests/ASSERTS.c.i:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Tests/ASSERTS.c.i
+.PHONY : Tests/ASSERTS.c.i
 
-Task1.s: Task1.c.s
+Tests/ASSERTS.s: Tests/ASSERTS.c.s
 
-.PHONY : Task1.s
+.PHONY : Tests/ASSERTS.s
 
 # target to generate assembly for a file
-Task1.c.s:
-	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Task1.c.s
-.PHONY : Task1.c.s
+Tests/ASSERTS.c.s:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Tests/ASSERTS.c.s
+.PHONY : Tests/ASSERTS.c.s
+
+Tests/Task1Test.obj: Tests/Task1Test.c.obj
+
+.PHONY : Tests/Task1Test.obj
+
+# target to build an object file
+Tests/Task1Test.c.obj:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Tests/Task1Test.c.obj
+.PHONY : Tests/Task1Test.c.obj
+
+Tests/Task1Test.i: Tests/Task1Test.c.i
+
+.PHONY : Tests/Task1Test.i
+
+# target to preprocess a source file
+Tests/Task1Test.c.i:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Tests/Task1Test.c.i
+.PHONY : Tests/Task1Test.c.i
+
+Tests/Task1Test.s: Tests/Task1Test.c.s
+
+.PHONY : Tests/Task1Test.s
+
+# target to generate assembly for a file
+Tests/Task1Test.c.s:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Tests/Task1Test.c.s
+.PHONY : Tests/Task1Test.c.s
 
 Tests/mapTest.obj: Tests/mapTest.c.obj
 
@@ -203,32 +203,113 @@ Tests/mapTest.c.s:
 	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/Tests/mapTest.c.s
 .PHONY : Tests/mapTest.c.s
 
-map.obj: map.c.obj
+src/Main.obj: src/Main.c.obj
 
-.PHONY : map.obj
+.PHONY : src/Main.obj
 
 # target to build an object file
-map.c.obj:
-	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/map.c.obj
-.PHONY : map.c.obj
+src/Main.c.obj:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/Main.c.obj
+.PHONY : src/Main.c.obj
 
-map.i: map.c.i
+src/Main.i: src/Main.c.i
 
-.PHONY : map.i
+.PHONY : src/Main.i
 
 # target to preprocess a source file
-map.c.i:
-	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/map.c.i
-.PHONY : map.c.i
+src/Main.c.i:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/Main.c.i
+.PHONY : src/Main.c.i
 
-map.s: map.c.s
+src/Main.s: src/Main.c.s
 
-.PHONY : map.s
+.PHONY : src/Main.s
 
 # target to generate assembly for a file
-map.c.s:
-	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/map.c.s
-.PHONY : map.c.s
+src/Main.c.s:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/Main.c.s
+.PHONY : src/Main.c.s
+
+src/Task1.obj: src/Task1.c.obj
+
+.PHONY : src/Task1.obj
+
+# target to build an object file
+src/Task1.c.obj:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/Task1.c.obj
+.PHONY : src/Task1.c.obj
+
+src/Task1.i: src/Task1.c.i
+
+.PHONY : src/Task1.i
+
+# target to preprocess a source file
+src/Task1.c.i:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/Task1.c.i
+.PHONY : src/Task1.c.i
+
+src/Task1.s: src/Task1.c.s
+
+.PHONY : src/Task1.s
+
+# target to generate assembly for a file
+src/Task1.c.s:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/Task1.c.s
+.PHONY : src/Task1.c.s
+
+src/map.obj: src/map.c.obj
+
+.PHONY : src/map.obj
+
+# target to build an object file
+src/map.c.obj:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/map.c.obj
+.PHONY : src/map.c.obj
+
+src/map.i: src/map.c.i
+
+.PHONY : src/map.i
+
+# target to preprocess a source file
+src/map.c.i:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/map.c.i
+.PHONY : src/map.c.i
+
+src/map.s: src/map.c.s
+
+.PHONY : src/map.s
+
+# target to generate assembly for a file
+src/map.c.s:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/map.c.s
+.PHONY : src/map.c.s
+
+src/where.obj: src/where.c.obj
+
+.PHONY : src/where.obj
+
+# target to build an object file
+src/where.c.obj:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/where.c.obj
+.PHONY : src/where.c.obj
+
+src/where.i: src/where.c.i
+
+.PHONY : src/where.i
+
+# target to preprocess a source file
+src/where.c.i:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/where.c.i
+.PHONY : src/where.c.i
+
+src/where.s: src/where.c.s
+
+.PHONY : src/where.s
+
+# target to generate assembly for a file
+src/where.c.s:
+	$(MAKE) -f CMakeFiles\toxic-repository.dir\build.make CMakeFiles/toxic-repository.dir/src/where.c.s
+.PHONY : src/where.c.s
 
 # Help Target
 help:
@@ -239,18 +320,27 @@ help:
 	@echo ... toxic-repository
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Main.obj
-	@echo ... Main.i
-	@echo ... Main.s
-	@echo ... Task1.obj
-	@echo ... Task1.i
-	@echo ... Task1.s
+	@echo ... Tests/ASSERTS.obj
+	@echo ... Tests/ASSERTS.i
+	@echo ... Tests/ASSERTS.s
+	@echo ... Tests/Task1Test.obj
+	@echo ... Tests/Task1Test.i
+	@echo ... Tests/Task1Test.s
 	@echo ... Tests/mapTest.obj
 	@echo ... Tests/mapTest.i
 	@echo ... Tests/mapTest.s
-	@echo ... map.obj
-	@echo ... map.i
-	@echo ... map.s
+	@echo ... src/Main.obj
+	@echo ... src/Main.i
+	@echo ... src/Main.s
+	@echo ... src/Task1.obj
+	@echo ... src/Task1.i
+	@echo ... src/Task1.s
+	@echo ... src/map.obj
+	@echo ... src/map.i
+	@echo ... src/map.s
+	@echo ... src/where.obj
+	@echo ... src/where.i
+	@echo ... src/where.s
 .PHONY : help
 
 

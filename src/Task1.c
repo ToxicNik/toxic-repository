@@ -4,7 +4,6 @@
 //
 
 #include <malloc.h>
-#include <stdio.h>
 #include <mem.h>
 #include "Task1.h"
 

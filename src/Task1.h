@@ -9,5 +9,6 @@
 #endif //TOXIC_REPOSITORY_TASK1_H
 
 #include <stdbool.h>
+#include <stdio.h>
 
 bool IsNumberSymmetrical(int number);

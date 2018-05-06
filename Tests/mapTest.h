@@ -7,6 +7,8 @@
 
 #endif //TOXIC_REPOSITORY_MAPTEST_H
 
-#include "../map.h"
+#include "ASSERTS.h"
 
-void MapTest();
+void MapTest_1();
+void MapTest_2();
+void MapTest_3();
