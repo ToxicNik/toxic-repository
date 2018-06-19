@@ -6,13 +6,7 @@
 #include "../Tests/mapTest.h"
 
 void main(){
-/*    int num = 111;
-    //scanf("%d", &num);
 
-    if (IsNumberSymmetrical(num))
-        printf("%s\n", "Your number is symmetrical");
-    else
-        printf("%s\n", "Your number is asymmetrical"); */
     printf("%s","Task 1 Test 1 :  ");
     Task1Test_1();
     printf("%s", "Task 1 Test 2 :  ");
